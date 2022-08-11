@@ -13,9 +13,12 @@ mark {
     color:#000
 }
 
-.btn-primary:hover {
-    background: #000;
-    color: #fff
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: none;
+    border-color: #255C99;
+    color: #255C99;
+    outline: none !important;
+    box-shadow: none;
 }
 
 .princeton {
@@ -34,6 +37,14 @@ mark {
 
 .header .navbar-toggler:not(.nav-link) {
     top: 0px !important;
+}
+
+.header .navbar-brand:hover {
+    color: #255C99;
+}
+
+.header .navbar-light .navbar-nav .nav-link:hover {
+    color: #255C99;
 }
 
 .wave {
