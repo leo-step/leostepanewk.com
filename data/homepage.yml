@@ -20,8 +20,13 @@ showcase:
 
   contact:
     icon: "icon-mail-fill"
-    btnText: "Contact"
+    btnText: "Resume"
     URL: "mailto:leo.stepanewk@princeton.edu"
+
+  # contact:
+  #   icon: "icon-mail-fill"
+  #   btnText: "Contact"
+  #   URL: "mailto:leo.stepanewk@princeton.edu"
 
   # socialLinks:
   #   - icon: "linkedin"
