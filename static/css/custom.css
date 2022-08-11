@@ -1,1 +1,56 @@
 /* You can customize theme styles here */
+
+mark {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0;
+    padding-right: 0;
+    background: none;
+}
+
+.btn-primary {
+    background:#fff;
+    color:#000
+}
+
+.btn-primary:hover {
+    background: #000;
+    color: #fff
+}
+
+.princeton {
+    color:#f58025;
+    border-color: #f58025;
+}
+
+.lapis {
+    color:#255C99;
+    border-color: #255C99;
+}
+
+.header .navbar .nav-item .nav-link {
+    font-size: 16px;
+}
+
+.header .navbar-toggler:not(.nav-link) {
+    top: 0px !important;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }

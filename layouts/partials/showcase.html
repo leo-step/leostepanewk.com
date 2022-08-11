@@ -13,23 +13,38 @@
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <h1 class="display-1">
-          {{ .Site.Data.homepage.showcase.title }}
+          Hello, I’m <mark class="lapis">Leo</mark> <mark class="wave">👋</mark>
           <br />
           <span
-            >{{ .Site.Data.homepage.showcase.subtitle }}</span
+            >CS @ <mark class="princeton">Princeton</mark></span
           >
         </h1>
         <p class="lead">
           {{ .Site.Data.homepage.showcase.description | safeHTML }}
         </p>
         <a
-          href="{{ .Site.Data.homepage.showcase.button.URL | absURL }}"
-          class="btn btn-primary"
+          href="{{ .Site.Data.homepage.showcase.linkedin.URL | absURL }}"
+          class="btn btn-primary mr-1"
+          target="_blank"
         >
-          <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>
-          {{ .Site.Data.homepage.showcase.button.btnText }}
+          <i class="{{ .Site.Data.homepage.showcase.linkedin.icon }}"></i>
+          {{ .Site.Data.homepage.showcase.linkedin.btnText }}
         </a>
-      </div>
+          <a
+          href="{{ .Site.Data.homepage.showcase.github.URL | absURL }}"
+          class="btn btn-primary mr-1"
+          target="_blank"
+        >
+          <i class="{{ .Site.Data.homepage.showcase.github.icon }}"></i>
+          {{ .Site.Data.homepage.showcase.github.btnText }}
+        </a>
+          <a
+          href="{{ .Site.Data.homepage.showcase.contact.URL | absURL }}"
+          class="btn btn-primary mr-1"
+        >
+          <i class="{{ .Site.Data.homepage.showcase.contact.icon }}"></i>
+          {{ .Site.Data.homepage.showcase.contact.btnText }}
+        </a>
     </div>
     <div class="row platform-links">
       <div class="col-12">
