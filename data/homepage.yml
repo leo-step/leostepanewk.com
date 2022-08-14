@@ -32,8 +32,8 @@ showcase:
 
 # about
 about:
-  enable: false
-  title: "Who am I?"
+  enable: true
+  title: "About Me"
   content: '<p class="lead">
     I am back, after a few days of vacationing with family. Weather was awesome, the beach was
     full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
@@ -54,14 +54,16 @@ about:
 
 # education
 education:
-  enable: false
+  enable: true
   title: "Education"
   items:
     - university: "Princeton University"
+      picture: https://upload.wikimedia.org/wikipedia/commons/d/d0/Princeton_seal.svg
       year: "2021-2025"
       degree: "Bachelor of Science in Engineering (BSE), Computer Science"
 
     - university: "Livingston High School"
+      picture: https://www.livingston.org/cms/lib/NJ01000562/Centricity/Template/GlobalAssets/images///logos/DistrictLogo.png
       year: "2017-2021"
       degree: "High School Diploma"
 

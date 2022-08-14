@@ -204,3 +204,11 @@ mark {
     }
 
 }
+
+.rad-showcase+section {
+    margin-top: -36px;
+}
+
+.education::before {
+    content: none;
+}
