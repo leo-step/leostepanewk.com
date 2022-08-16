@@ -220,3 +220,46 @@ mark {
 .section-container {
     max-width: 1400px !important;
 }
+
+.path {
+    border-style: solid !important;
+    border-color: #fcc095 !important;
+}
+
+.path-bottom-left {
+    padding-left: 25px !important;
+    padding-bottom: 25px !important;
+    margin-bottom: -36px;
+    border-width: 0px 0px 36px 36px !important;
+    border-radius: 0px 0px 0px 64px !important;
+}
+
+.path-half-left {
+    border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+}
+
+.path-top-right {
+    padding-top: 25px !important;
+    padding-right: 25px !important;
+    border-width: 36px 36px 0px 0px !important;
+    border-radius: 0px 64px 0px 0px !important;
+}
+
+
+/* .path-left-bottom::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    border: solid var(--princeton-orange) !important;
+    border-width: 5px 5px 5px 5px !important;
+    border-radius: 50px 50px 50px 50px !important;
+}
+
+.path-bottom::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border: solid var(--princeton-orange);
+    border-width: 5px 5px 5px 5px;
+    border-radius: 50px 50px 50px 50px;
+} */

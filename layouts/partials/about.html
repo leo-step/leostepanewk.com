@@ -1,7 +1,7 @@
 {{ if .Site.Data.homepage.about.enable }}
 <section class="section rad-animation-group pb-0" id="about">
   <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row py-2">
+    <div class="row d-flex flex-column-reverse flex-md-row py-2 path path-bottom-left path-half-left">
       <div class="about__profile-picture col-12 col-md-6">
         <img
           class="lozad img-responsive"
@@ -17,7 +17,7 @@
         </p>
       </div>
     </div>
-    <div class="row d-flex flex-column-reverse flex-md-row py-2">
+    <div class="row d-flex flex-column-reverse flex-md-row py-2 path path-top-right">
       <div class="col-12 col-md-6">
         <p class="lead">
           {{ .Site.Data.homepage.about.content | safeHTML }}
