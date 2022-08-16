@@ -237,9 +237,69 @@ mark {
     border-radius: 0px 28px 0px 0px !important;
 }
 
+.dot-about-1::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 999px;
+    border: 14px solid var(--lapis-blue);
+    top: 45%;
+    left: -43px;
+}
+
+.dot-about-2::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 999px;
+    border: 14px solid var(--lapis-blue);
+    top: 45%;
+    right: -43px;
+}
+
+.dot-education::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 999px;
+    border: 14px solid var(--lapis-blue);
+    top: 65%;
+    right: -43px;
+}
+
 .path {
     border-style: solid !important;
     border-color: var(--princeton-orange) !important;
+}
+
+.path-start::before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border-radius: 999px;
+    border: 18px solid var(--princeton-orange);
+    top: 3%;
+    left: 9px;
+}
+
+.path-end::before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border-radius: 999px;
+    border: 18px solid var(--princeton-orange);
+    top: 93%;
+    right: 0px;
 }
 
 .path-bottom-left {
