@@ -1,4 +1,8 @@
-/* You can customize theme styles here */
+:root {
+    --princeton-orange: #f58025;
+    --princeton-orange-opaque: #f5802540;
+    --lapis-blue: #255C99;
+}
 
 mark {
     padding-top: 0.25em;
@@ -15,20 +19,20 @@ mark {
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background: none;
-    border-color: #255C99;
-    color: #255C99;
+    border-color: var(--lapis-blue);
+    color: var(--lapis-blue);
     outline: none !important;
     box-shadow: none;
 }
 
 .princeton {
-    color:#f58025;
-    border-color: #f58025;
+    color: var(--princeton-orange);
+    border-color: var(--princeton-orange);
 }
 
 .lapis {
-    color:#255C99;
-    border-color: #255C99;
+    color:var(--lapis-blue);
+    border-color: var(--lapis-blue);
 }
 
 .header .navbar .nav-item .nav-link {
@@ -40,11 +44,11 @@ mark {
 }
 
 .header .navbar-brand:hover {
-    color: #255C99;
+    color: var(--lapis-blue);
 }
 
 .header .navbar-light .navbar-nav .nav-link:hover {
-    color: #255C99;
+    color: var(--lapis-blue);
 }
 
 .wave {
@@ -108,7 +112,7 @@ mark {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: #f5802540;
+    background: var(--princeton-orange-opaque);
     /* background: rgba(255, 255, 255, 0.2); */
     animation: animate 20s linear infinite;
     bottom: -150px;
@@ -210,7 +214,7 @@ mark {
 }
 
 ::selection {
-    background: #f58025 !important;
+    background: var(--princeton-orange) !important;
 }
 
 .section-container {
