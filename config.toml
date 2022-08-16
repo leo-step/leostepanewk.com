@@ -31,13 +31,13 @@ theme = "raditian-free-hugo-theme"
   weight = 2
 
   [[menu.header]]
-  name = "Projects"
-  URL = "#projects"
+  name = "Experience"
+  URL = "#experience"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
+  name = "Projects"
+  URL = "#projects"
   weight = 4
 
 
@@ -47,13 +47,13 @@ theme = "raditian-free-hugo-theme"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Experience"
+  URL = "#experience"
   weight = 3
 
   [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
+  name = "Projects"
+  URL = "#projects"
   weight = 4
 
 
@@ -68,7 +68,7 @@ theme = "raditian-free-hugo-theme"
     text2 = "Stepanewk"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
+      copyright = "© 2022 Leo Stepanewk"
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"

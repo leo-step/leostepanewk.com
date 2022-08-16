@@ -209,6 +209,10 @@ mark {
     margin-top: -36px;
 }
 
-.education::before {
-    content: none;
+::selection {
+    background: #f58025 !important;
+}
+
+.section-container {
+    max-width: 1400px !important;
 }

@@ -48,9 +48,12 @@ about:
     icon: "icon-smile-fill"
     btnText: "About Me"
     URL: "https://www.linkedin.com/company/radity/"
-  image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+  image1:
+    x: "img/who-am-i/leostepanewk-removebg.png"
+    _2x: "img/who-am-i/leostepanewk-removebg@2x.png"
+  image2:
+    x: "img/who-am-i/m3check.png"
+    _2x: "img/who-am-i/m3check@2x.png"
 
 # education
 education:
