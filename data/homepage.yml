@@ -34,7 +34,7 @@ showcase:
 
 # about
 about:
-  enable: true
+  enable: false
   title: "About Me"
   content: '<p class="lead">
     I am back, after a few days of vacationing with family. Weather was awesome, the beach was
@@ -64,7 +64,7 @@ about:
 
 # education
 education:
-  enable: true
+  enable: false
   title: "Education"
   items:
     - university: "Princeton University"
