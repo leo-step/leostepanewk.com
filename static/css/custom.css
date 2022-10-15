@@ -209,21 +209,97 @@ mark {
 
 }
 
-.rad-showcase+section {
-    margin-top: -36px;
-}
-
 ::selection {
     background: var(--princeton-orange) !important;
+}
+
+.section {
+    padding-top: 0px;
 }
 
 .section-container {
     max-width: 1400px !important;
 }
 
+.rad-showcase+section {
+    margin-top: 0px;
+}
+
+.first-row {
+    padding-top: 50px;
+}
+
+.round-bottom-left {
+    border-radius: 0px 0px 0px 28px !important;
+}
+
+.round-top-right {
+    border-radius: 0px 28px 0px 0px !important;
+}
+
+.dot-about-1::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 999px;
+    border: 14px solid var(--lapis-blue);
+    top: 45%;
+    left: -43px;
+}
+
+.dot-about-2::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 999px;
+    border: 14px solid var(--lapis-blue);
+    top: 45%;
+    right: -43px;
+}
+
+.dot-education::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 999px;
+    border: 14px solid var(--lapis-blue);
+    top: 65%;
+    right: -43px;
+}
+
 .path {
     border-style: solid !important;
-    border-color: #fcc095 !important;
+    border-color: var(--princeton-orange) !important;
+}
+
+.path-start::before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border-radius: 999px;
+    border: 18px solid var(--princeton-orange);
+    top: 3%;
+    left: 9px;
+}
+
+.path-end::before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border-radius: 999px;
+    border: 18px solid var(--princeton-orange);
+    top: 93%;
+    right: 0px;
 }
 
 .path-bottom-left {
@@ -234,10 +310,6 @@ mark {
     border-radius: 0px 0px 0px 64px !important;
 }
 
-.path-half-left {
-    border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
-}
-
 .path-top-right {
     padding-top: 25px !important;
     padding-right: 25px !important;
@@ -245,21 +317,7 @@ mark {
     border-radius: 0px 64px 0px 0px !important;
 }
 
-
-/* .path-left-bottom::before {
-    content: "";
-    position: absolute;
-    width: 50%;
-    border: solid var(--princeton-orange) !important;
-    border-width: 5px 5px 5px 5px !important;
-    border-radius: 50px 50px 50px 50px !important;
+.path-right {
+    border-width: 0px 36px 0px 0px !important;
+    border-radius: 0px 0px 0px 0px !important;
 }
-
-.path-bottom::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    border: solid var(--princeton-orange);
-    border-width: 5px 5px 5px 5px;
-    border-radius: 50px 50px 50px 50px;
-} */
