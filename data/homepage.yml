@@ -37,30 +37,30 @@ about:
   enable: true
   title: "About Me"
   content: '<p class="lead">
-    Hi there! I am a computer science student at Princeton who is interested in machine learning, 
-    blockchain, and entrepreneurship. I strive to an early adopter of new technology so that I 
+    Hi there! I am a computer science student at <span class="bold-orange">Princeton</span> who is interested in <span class="bold-blue">machine learning, 
+    blockchain, and entrepreneurship</span>. I strive to an <span class="bold-orange">early adopter</span> of new technology so that I 
     can deliver innovative products to users.
     </p>
     <p class="lead">
     I have experience in machine learning, both in an industry and research setting. 
-    I also enjoy building web applications for my projects, university clubs, and internships. 
-    Recently, I’ve delved into Ethereum smart contract programming and auditing.
+    I also enjoy building <span class="bold-blue">web applications</span> for my projects, university clubs, and internships. 
+    Recently, I’ve delved into <span class="bold-orange">Ethereum</span> smart contract programming and auditing.
     </p>
     <p class="lead">
-    I am an alumni of the New Jersey Governor’s School of Engineering and Technology, a program 
-    for the top 72 engineering students in the state. My team and I published a paper on generative 
+    I am an alumni of the <span class="bold-blue">New Jersey Governor’s School of Engineering and Technology</span>, a program 
+    for the <span class="bold-orange">top 72 engineering students</span> in the state. My team and I published a <a href="https://ieeexplore.ieee.org/document/9668909" target="_blank">paper</a> on generative 
     music that was accepted to MIT URTC 2020.
     </p>'
   content2: '<p class="lead">
-    In addition, I was a member of the champion team in the 2021 MathWorks Math Modeling (M3) Challenge.
+    In addition, I was a member of the <span class="bold-blue">champion team in the 2021 MathWorks Math Modeling (M3) Challenge</span>.
     In a 14-hour window, my team developed mathematical models for predicting usage and distributing 
-    resources to improve rural internet accessibility. Our paper was judged by professional mathematicians 
-    and was selected to be the best out of hundreds of submissions.
+    resources to improve rural internet accessibility. Our <a href="https://m3challenge.siam.org/sites/default/files/uploads/CHAMPION_14817.pdf" target="_blank">paper</a> was judged by professional mathematicians 
+    and was selected to be the <span class="bold-orange">best out of hundreds of submissions</span>.
     </p>
     <p class="lead">
-    Outside of work, I spend time folding origami chickens, beating my friends at ping-pong (sometimes), 
+    Outside of work, I spend time folding <a href="https://www.youtube.com/watch?v=CWM5PCgmkt8" target="_blank">origami chickens</a>, beating my friends at ping-pong (sometimes), 
     and going on long walks outside. I’ve played tennis since middle school and practiced classical/jazz 
-    guitar for over 10 years. I am also a fan of hackathons and various programming challenges.
+    guitar for over 10 years. I am also a fan of <span class="bold-blue">hackathons</span> and various <span class="bold-orange">programming challenges</span>.
     </p>'
   button:
     icon: "icon-smile-fill"

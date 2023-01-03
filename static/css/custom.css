@@ -17,6 +17,16 @@ mark {
     color:#000
 }
 
+.bold-orange {
+    font-weight: bold !important;
+    color: var(--princeton-orange) !important;
+}
+
+.bold-blue {
+    font-weight: bold !important;
+    color: var(--lapis-blue) !important;
+}
+
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background: none;
     border-color: var(--lapis-blue);
