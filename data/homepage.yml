@@ -37,19 +37,30 @@ about:
   enable: true
   title: "About Me"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+    Hi there! I am a computer science student at Princeton who is interested in machine learning, 
+    blockchain, and entrepreneurship. I strive to an early adopter of new technology so that I 
+    can deliver innovative products to users.
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    I have experience in machine learning, both in an industry and research setting. 
+    I also enjoy building web applications for my projects, university clubs, and internships. 
+    Recently, I’ve delved into Ethereum smart contract programming and auditing.
     </p>
     <p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+    I am an alumni of the New Jersey Governor’s School of Engineering and Technology, a program 
+    for the top 72 engineering students in the state. My team and I published a paper on generative 
+    music that was accepted to MIT URTC 2020.
+    </p>'
+  content2: '<p class="lead">
+    In addition, I was a member of the champion team in the 2021 MathWorks Math Modeling (M3) Challenge.
+    In a 14-hour window, my team developed mathematical models for predicting usage and distributing 
+    resources to improve rural internet accessibility. Our paper was judged by professional mathematicians 
+    and was selected to be the best out of hundreds of submissions.
+    </p>
+    <p class="lead">
+    Outside of work, I spend time folding origami chickens, beating my friends at ping-pong (sometimes), 
+    and going on long walks outside. I’ve played tennis since middle school and practiced classical/jazz 
+    guitar for over 10 years. I am also a fan of hackathons and various programming challenges.
     </p>'
   button:
     icon: "icon-smile-fill"
