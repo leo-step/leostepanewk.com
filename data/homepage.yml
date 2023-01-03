@@ -203,29 +203,22 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: false
+  enable: true
   title: "Testimonials"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - name: "Margaret Tam"
+      position: "TrueToForm, CTO"
+      content: "Leo consistently impressed me throughout his software engineering internship at TrueToForm, where I was his project manager and mentor. He quickly demonstrated that he has strong technical skills in programming and algorithm development, and that he is an incredibly motivated, fast learner. Over the course of the summer, he added 11 new body measurements which are critical to garment design and construction. By completing our automated set of full body measurements, we were able to launch the TrueToForm open beta program during the summer and acquire our first paying customers."
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/testimonials/margarettam.jpeg"
+        _2x: "img/testimonials/margarettam.jpeg"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+    - name: "Dr. Chen Feng"
+      position: "Assistant Professor, NYU"
+      content: "Leo first reached out to me through LinkedIn as a high school sophomore to inquire about a summer research position in my group. In my conversations with him, he expressed a passion for machine learning, which he developed by developing personal projects and taking online courses. Leo was the perfect fit for an independent research student, and I had the pleasure of having Leo at the NYU AI4CE lab for the next three years. He demonstrated intellectual curiosity, excellence in collaborating with others, and a passion for machine learning. As an undergraduate student with rich research experience and motivation, he has my highest recommendation."
       image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        x: "img/testimonials/cfeng.jpeg"
+        _2x: "img/testimonials/cfeng.jpeg"
 
 # contact
 contact:
