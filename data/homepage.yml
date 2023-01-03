@@ -93,7 +93,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "I have three years of experience working at the NYU Tandon School of Engineering with Professor Feng and his <a href='https://ai4ce.github.io/' target='_blank'>computer vision lab</a>. Last summer, I completed a software engineering internship at <a href='https://www.truetoform.fit/' target='_blank'>TrueToForm</a>, an early-stage startup developing proprietary computer vision algorithms to capture body shape and size in 3D. Currently, I am building two new student apps for the Princeton community, <a href='https://cos333tigermap.herokuapp.com/' target='_blank'>TigerMap</a> and <a href='https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee?hl=en&authuser=0' target='_blank'>Today @ Princeton</a>."
+  description: "I have three years of experience working at the <span class='bold-orange'>NYU Tandon School of Engineering</span> with Professor Feng and his <a href='https://ai4ce.github.io/' target='_blank'>computer vision lab</a>. Last summer, I completed a software engineering internship at <a href='https://www.truetoform.fit/' target='_blank'>TrueToForm</a>, an <span class='bold-blue'>early-stage startup</span> developing proprietary computer vision algorithms to capture body shape and size in 3D. Currently, I am building <span class='bold-orange'>two new student apps</span> for the Princeton community, <a href='https://cos333tigermap.herokuapp.com/' target='_blank'>TigerMap</a> and <a href='https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee?hl=en&authuser=0' target='_blank'>Today @ Princeton</a>."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
