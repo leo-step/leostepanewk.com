@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: 'Hello, I’m <mark class="lapis">Leo</mark> <mark class="wave">👋</mark>'
   subtitle: '<span>CS @ <mark class="princeton">Princeton</mark></span>'
-  description: "I am an undergraduate student at Princeton University pursuing computer science with minors in finance and machine learning. As an aspiring entrepreneur, I strive to develop solutions at the intersection of cutting-edge technology and human needs."
+  description: "I am an undergraduate student at Princeton University pursuing computer science with a minor in statistics and machine learning. As an aspiring entrepreneur, I strive to develop solutions at the intersection of cutting-edge technology and human needs."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
