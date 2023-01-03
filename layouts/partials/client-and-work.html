@@ -14,6 +14,9 @@
         <p class="lead">
           {{ .description }}
         </p>
+        <a href="{{ .button.github | absURL }}" target="_blank" class="btn btn-primary mr-1"
+          ><i class="icon-github-line"></i
+            >GitHub</a>
         <a href="{{ .button.URL | absURL }}" target="_blank" class="btn btn-primary"
           >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
         ></a>
@@ -25,6 +28,7 @@
           data-src="{{ .image.x | absURL }}"
           data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
           alt="{{ .title }}"
+          style="width: 679px"
         />
       </div>
       {{ else }}
@@ -35,6 +39,7 @@
           data-src="{{ .image.x | absURL }}"
           data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
           alt="{{ .title }}"
+          style="width: 679px"
         />
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
@@ -42,7 +47,10 @@
         <p class="lead">
           {{ .description }}
         </p>
-        <a href="{{ .button.URL | absURL }}" target="_blank" class="btn btn-primary"
+        <a href="{{ .button.github | absURL }}" target="_blank" class="btn btn-primary mr-1"
+        ><i class="icon-github-line"></i
+          >GitHub</a>
+        <a href="{{ .button.URL | absURL }}" target="_blank" class="btn btn-primary mr-1"
           >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
         ></a>
       </div>

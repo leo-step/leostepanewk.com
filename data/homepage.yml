@@ -146,10 +146,11 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "View"
+        github: "https://github.com/leo-step/TigerMap"
         URL: "https://cos333tigermap.herokuapp.com/"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "https://github.com/leo-step/leo-step/raw/main/tigermap-large.png"
+        _2x: "https://github.com/leo-step/leo-step/raw/main/tigermap-large.png"
       is_even: true
 
     - title: "Today @ Princeton"
@@ -157,10 +158,11 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "View"
+        github: "https://github.com/riiptide/Today"
         URL: "https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "https://github.com/leo-step/leo-step/raw/main/today-large.png"
+        _2x: "https://github.com/leo-step/leo-step/raw/main/today-large.png"
       is_even: false
 
     - title: "Leetcode Patterns"
@@ -168,10 +170,11 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "View"
+        github: "https://github.com/seanprashad/leetcode-patterns"
         URL: "https://seanprashad.com/leetcode-patterns/"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "https://github.com/leo-step/leo-step/raw/main/lcpatterns-large.png"
+        _2x: "https://github.com/leo-step/leo-step/raw/main/lcpatterns-large.png"
       is_even: true
 
     - title: "CrowdCoin"
@@ -179,10 +182,11 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "View"
+        github: "https://github.com/leo-step/eth-kickstarter"
         URL: "https://eth-kickstarter-beta.vercel.app/"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "https://raw.githubusercontent.com/leo-step/eth-kickstarter/main/2.png"
+        _2x: "https://raw.githubusercontent.com/leo-step/eth-kickstarter/main/2.png"
       is_even: false
 
     - title: "Ethernaut"
@@ -190,10 +194,11 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "View"
+        github: "https://github.com/leo-step/ethernaut"
         URL: "https://ethernaut-writeup.fly.dev/"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "https://github.com/leo-step/ethernaut/raw/main/writeup.png?raw=true"
+        _2x: "https://github.com/leo-step/ethernaut/raw/main/writeup.png?raw=true"
       is_even: true
 
 # testimonial
