@@ -204,7 +204,7 @@ client_and_work:
 # testimonial
 testimonial:
   enable: true
-  title: "Testimonials"
+  title: "Recommendations"
   items:
     - name: "Margaret Tam"
       position: "TrueToForm, CTO"
