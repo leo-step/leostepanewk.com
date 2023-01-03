@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: 'Hello, I’m <mark class="lapis">Leo</mark> <mark class="wave">👋</mark>'
   subtitle: '<span>CS @ <mark class="princeton">Princeton</mark></span>'
-  description: "I am an undergraduate student at Princeton University pursuing computer science with a focus on machine learning. As an aspiring entrepreneur, I strive to develop solutions at the intersection of cutting-edge technology and human needs."
+  description: "I am an undergraduate student at Princeton University pursuing computer science with minors in finance and machine learning. As an aspiring entrepreneur, I strive to develop solutions at the intersection of cutting-edge technology and human needs."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -34,7 +34,7 @@ showcase:
 
 # about
 about:
-  enable: false
+  enable: true
   title: "About Me"
   content: '<p class="lead">
     I am back, after a few days of vacationing with family. Weather was awesome, the beach was
@@ -64,7 +64,7 @@ about:
 
 # education
 education:
-  enable: false
+  enable: true
   title: "Education"
   items:
     - university: "Princeton University"
@@ -79,35 +79,35 @@ education:
 
 # experience
 experience:
-  enable: false
+  enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "I have three years of experience working at the NYU Tandon School of Engineering with Professor Feng and his <a href='https://ai4ce.github.io/' target='_blank'>computer vision lab</a>. Last summer, I completed a software engineering internship at <a href='https://www.truetoform.fit/' target='_blank'>TrueToForm</a>, an early-stage startup developing proprietary computer vision algorithms to capture body shape and size in 3D. Currently, I am building two new student apps for the Princeton community, <a href='https://cos333tigermap.herokuapp.com/' target='_blank'>TigerMap</a> and <a href='https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee?hl=en&authuser=0' target='_blank'>Today @ Princeton</a>."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/leo-stepanewk/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "/resume.pdf"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Student App Developer"
+      company: "Princeton TigerApps"
+      duration: "Apr 2022 - Present"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Software Engineering Intern"
+      company: "TrueToForm"
+      duration: "May 2022 - Jul 2022"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Independent Research Student"
+      company: "NYU Tandon School of Engineering"
+      duration: "Jun 2019 — Aug 2021"
 
 # Client & Work
 client_and_work:
-  title: "Clients & Works"
-  enable: false
+  title: "Projects"
+  enable: true
 
   clients:
     - logo:
@@ -141,34 +141,56 @@ client_and_work:
       alt: "Ztos"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "TigerMap"
+      description: "TigerMap is a course selection treasure map that helps you find your way through Princeton by showing which courses serve as prerequisites to a class and which courses that particular class unlocks."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "View"
+        URL: "https://cos333tigermap.herokuapp.com/"
       image:
         x: "img/works/radity-finance.jpg"
         _2x: "img/works/radity-finance@2x.jpg"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "Today @ Princeton"
+      description: "A new tab chrome extension that provides the most important information for Princeton students atop a beautiful rotating background."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "View"
+        URL: "https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee"
       image:
         x: "img/works/swissfintech.jpg"
         _2x: "img/works/swissfintech@2x.jpg"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Leetcode Patterns"
+      description: "Second largest contributor to a coding interview prep website receiving over 300k monthly visitors."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "View"
+        URL: "https://seanprashad.com/leetcode-patterns/"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+    - title: "CrowdCoin"
+      description: "A decentralized clone of kickstarter that uses smart contracts to enable project contributors to approve the use of their funds."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View"
+        URL: "https://eth-kickstarter-beta.vercel.app/"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: false
+
+    - title: "Ethernaut"
+      description: "My solutions to The Ethernaut, a Web3/Solidity based wargame played in the Ethereum Virtual Machine."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View"
+        URL: "https://ethernaut-writeup.fly.dev/"
       image:
         x: "img/works/robo-advisor.jpg"
         _2x: "img/works/robo-advisor@2x.jpg"

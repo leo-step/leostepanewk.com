@@ -1,10 +1,10 @@
 {{ if .Site.Data.homepage.about.enable }}
 <section class="section rad-animation-group pb-0" id="about">
   <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row first-row path-start">
-      <div class="about__profile-picture col-12 col-md-6 path path-bottom-left dot-about-1">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
         <img
-          class="lozad img-responsive round-bottom-left path-start"
+          class="lozad img-responsive"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .Site.Data.homepage.about.image1.x | absURL }}"
           alt="Leo Stepanewk"
@@ -23,10 +23,10 @@
           {{ .Site.Data.homepage.about.content | safeHTML }}
         </p>
       </div>
-      <div class="about__profile-picture col-12 col-md-6 path path-top-right dot-about-2">
+      <div class="about__profile-picture col-12 col-md-6">
         <!-- data-srcset="{{ .Site.Data.homepage.about.image.x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 2x" -->
         <img
-          class="lozad img-responsive round-top-right"
+          class="lozad img-responsive"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .Site.Data.homepage.about.image2.x | absURL }}"
           alt="M3 Check"

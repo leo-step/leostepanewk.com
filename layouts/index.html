@@ -13,7 +13,7 @@
 
 <body>
 
-	<!--{{ partial "header.html" . }}-->
+	{{ partial "header.html" . }}
 
 	{{ range .Site.Params.sections }}
 	{{ partial . $ }}
@@ -32,7 +32,7 @@
 			<li></li>
 		</ul>
 	</div >
-	<!--{{ partial "footer.html" . }}-->
+	{{ partial "footer.html" . }}
     {{ partial "base-foot.html" . }}
 </body>
 

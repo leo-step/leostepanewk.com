@@ -37,7 +37,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Projects"
-  URL = "#projects"
+  URL = "#portfolio"
   weight = 4
 
 
@@ -53,7 +53,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Projects"
-  URL = "#projects"
+  URL = "#portfolio"
   weight = 4
 
 
@@ -68,7 +68,7 @@ theme = "raditian-free-hugo-theme"
     text2 = "Stepanewk"
 
   [params.footer]
-      copyright = "© 2022 Leo Stepanewk"
+      copyright = "© 2023 Leo Stepanewk"
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
