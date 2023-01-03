@@ -56,8 +56,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/company/radity/"
   image1:
-    x: "img/who-am-i/leostepanewk-removebg.png"
-    _2x: "img/who-am-i/leostepanewk-removebg@2x.png"
+    x: "img/who-am-i/avatar.jpeg"
+    _2x: "img/who-am-i/avatar.jpeg"
   image2:
     x: "img/who-am-i/m3check.png"
     _2x: "img/who-am-i/m3check@2x.png"
