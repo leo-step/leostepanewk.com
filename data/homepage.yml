@@ -8,7 +8,7 @@ showcase:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
-    x: "img/showcase/showcase-mobile.png"
+    x: "img/showcase/showcase-mobile.jpg"
 
   linkedin:
     icon: "icon-linkedin-fill"
