@@ -161,8 +161,8 @@ client_and_work:
         github: "https://github.com/leo-step/TigerMap"
         URL: "https://cos333tigermap.herokuapp.com/"
       image:
-        x: "https://github.com/leo-step/leo-step/raw/main/tigermap-large.png"
-        _2x: "https://github.com/leo-step/leo-step/raw/main/tigermap-large.png"
+        x: "img/works/tigermap-large.jpg"
+        _2x: "img/works/tigermap-large.jpg"
       is_even: true
 
     - title: "Today @ Princeton"
@@ -173,8 +173,8 @@ client_and_work:
         github: "https://github.com/riiptide/Today"
         URL: "https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee"
       image:
-        x: "https://github.com/leo-step/leo-step/raw/main/today-large.png"
-        _2x: "https://github.com/leo-step/leo-step/raw/main/today-large.png"
+        x: "img/works/today-large.jpg"
+        _2x: "img/works/today-large.jpg"
       is_even: false
 
     - title: "Leetcode Patterns"
@@ -185,8 +185,8 @@ client_and_work:
         github: "https://github.com/seanprashad/leetcode-patterns"
         URL: "https://seanprashad.com/leetcode-patterns/"
       image:
-        x: "https://github.com/leo-step/leo-step/raw/main/lcpatterns-large.png"
-        _2x: "https://github.com/leo-step/leo-step/raw/main/lcpatterns-large.png"
+        x: "img/works/lcpatterns-large.jpg"
+        _2x: "img/works/lcpatterns-large.jpg"
       is_even: true
 
     - title: "CrowdCoin"
@@ -197,8 +197,8 @@ client_and_work:
         github: "https://github.com/leo-step/eth-kickstarter"
         URL: "https://eth-kickstarter-beta.vercel.app/"
       image:
-        x: "https://raw.githubusercontent.com/leo-step/eth-kickstarter/main/2.png"
-        _2x: "https://raw.githubusercontent.com/leo-step/eth-kickstarter/main/2.png"
+        x: "img/works/crowdcoin-large.jpg"
+        _2x: "img/works/crowdcoin-large.jpg"
       is_even: false
 
     - title: "Ethernaut"
@@ -209,8 +209,8 @@ client_and_work:
         github: "https://github.com/leo-step/ethernaut"
         URL: "https://ethernaut-writeup.fly.dev/"
       image:
-        x: "https://github.com/leo-step/ethernaut/raw/main/writeup.png?raw=true"
-        _2x: "https://github.com/leo-step/ethernaut/raw/main/writeup.png?raw=true"
+        x: "img/works/ethernaut-large.jpg"
+        _2x: "img/works/ethernaut-large.jpg"
       is_even: true
 
 # testimonial
