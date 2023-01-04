@@ -7,7 +7,7 @@
                 <div class="row pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.education.items }}
                     <div class="col-12 col-sm-6 mb-4 mb-sm-0 media">
-                        <img class="align-self-center mr-3" src="{{ .picture }}" width=100 height=100>
+                        <img alt="{{ .university }}" class="align-self-center mr-3" src="{{ .picture }}" width=100 height=100>
                         <div class="education media-body">
                             <div class="education__date">{{ .year }}</div>
                             <div class="education__title">{{ .university }}</div>
