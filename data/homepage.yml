@@ -158,7 +158,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "View"
-        github: "https://github.com/leo-step/TigerMap"
+        github: "https://github.com/leo-step/COS333-TigerMap"
         URL: "https://cos333tigermap.herokuapp.com/"
       image:
         x: "img/works/tigermap-large.jpg"
