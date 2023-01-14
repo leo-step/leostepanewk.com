@@ -7,8 +7,10 @@ showcase:
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
+    alt: "Leo Stepanewk"
   imageMobile:
     x: "img/showcase/showcase-mobile.jpg"
+    alt: "Leo Stepanewk"
 
   linkedin:
     icon: "icon-linkedin-fill"
