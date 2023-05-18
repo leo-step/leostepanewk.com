@@ -80,6 +80,30 @@
         /> -->
       </div>
     </div>
+    <div class="row flex-md-row rad-fade-down">
+      <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+        {{ $fourthItem := index .Site.Data.homepage.experience.items 3}}
+        <div class="experience">
+          <div class="experience__date">{{ $fourthItem.duration }}</div>
+          <div class="experience__title">{{ $fourthItem.title }}</div>
+          <div class="experience__company">{{ $fourthItem.company }}</div>
+        </div>
+        <video width="100%" playsinline autoplay muted loop style="padding: 36px; padding-top: 48px; padding-left: 0px">
+          <source src="img/works/avatar.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+        {{ $fifthItem := index .Site.Data.homepage.experience.items 4}}
+        <div class="experience">
+          <div class="experience__date">{{ $fifthItem.duration }}</div>
+          <div class="experience__title">{{ $fifthItem.title }}</div>
+          <div class="experience__company">{{ $fifthItem.company }}</div>
+        </div>
+        <video width="100%" playsinline autoplay muted loop style="margin-left: -36px">
+          <source src="img/works/deepmapping.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}

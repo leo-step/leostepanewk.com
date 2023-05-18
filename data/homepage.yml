@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: 'Hello, I’m <mark class="lapis">Leo</mark> <mark class="wave">👋</mark>'
   subtitle: '<span>CS @ <mark class="princeton">Princeton</mark></span>'
-  description: "I am an undergraduate student at Princeton University pursuing computer science with minors in finance and machine learning. As an aspiring entrepreneur, I strive to develop solutions at the intersection of cutting-edge technology and human needs."
+  description: "I am an undergraduate student at Princeton University pursuing computer science with interests in machine learning and finance. As an aspiring entrepreneur, I strive to develop solutions at the intersection of cutting-edge technology and human needs."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -39,14 +39,14 @@ about:
   enable: true
   title: "About Me"
   content: '<p class="lead">
-    Hi there! I am a computer science student at <span class="bold-orange">Princeton</span> who is interested in <span class="bold-blue">machine learning, 
-    blockchain, and entrepreneurship</span>. I strive to an <span class="bold-orange">early adopter</span> of new technology so that I 
-    can deliver innovative products to users.
+    Hi there! I am a computer science student at <span class="bold-orange">Princeton</span> who is passionate about exploring the intersection of emerging 
+    technologies, finding unaddressed niches, and delivering innovative solutions to users. I strive to an <span class="bold-blue">early adopter</span> 
+    of new technology so that I can deliver innovative products to users.
     </p>
     <p class="lead">
     I have experience in machine learning, both in an industry and research setting. 
-    I also enjoy building <span class="bold-blue">web applications</span> for my projects, university clubs, and internships. 
-    Recently, I’ve delved into <span class="bold-orange">Ethereum</span> smart contract programming and auditing.
+    I also enjoy building <span class="bold-orange">web applications</span> for my projects, university clubs, and internships. 
+    Recently, I’ve delved into <span class="bold-blue">Ethereum</span> smart contract programming and <span class="bold-orange">iOS development</span>.
     </p>
     <p class="lead">
     I am an alumni of the <span class="bold-blue">New Jersey Governor’s School of Engineering and Technology</span>, a program 
@@ -95,7 +95,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "I have three years of experience working at the <span class='bold-orange'>NYU Tandon School of Engineering</span> with Professor Feng and his <a href='https://ai4ce.github.io/' target='_blank'>computer vision lab</a>. Last summer, I completed a software engineering internship at <a href='https://www.truetoform.fit/' target='_blank'>TrueToForm</a>, an <span class='bold-blue'>early-stage startup</span> developing proprietary computer vision algorithms to capture body shape and size in 3D. Currently, I am building <span class='bold-orange'>two new student apps</span> for the Princeton community, <a href='https://cos333tigermap.herokuapp.com/' target='_blank'>TigerMap</a> and <a href='https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee?hl=en&authuser=0' target='_blank'>Today @ Princeton</a>."
+  description: "I have three years of experience working at the <span class='bold-orange'>NYU Tandon School of Engineering</span> with Professor Feng and his <a href='https://ai4ce.github.io/' target='_blank'>computer vision lab</a>. I’ve previously interned at <a href='https://www.truetoform.fit/' target='_blank'>TrueToForm</a>, an early-stage startup developing <span class='bold-blue'>computer vision</span> algorithms to capture body shape in 3D, and <a href='https://www.ycombinator.com/companies/coinfeeds' target='_blank'>Coinfeeds</a>, a <span class='bold-orange'>social sentiment</span> platform for <span class='bold-blue'>cryptocurrency</span> trading. Currently, I am a technical lead at <a href='https://boreas.eco/' target='_blank'>Boreas</a>, which is building a keychain air quality monitor for people with atmospheric conditions. I also co-founded <a href='https://chrome.google.com/webstore/detail/today-princeton/iejdjhiphonjpgaobmpniifeipiomgee?hl=en&authuser=0' target='_blank'>Today @ Princeton</a>, a new tab page for delivering campus information to students."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -106,9 +106,17 @@ experience:
     URL: "/resume.pdf"
 
   items:
-    - title: "Student App Developer"
-      company: "Princeton TigerApps"
-      duration: "Apr 2022 - Present"
+    - title: "App & UI/UX Developer"
+      company: "Boreas"
+      duration: "Apr 2023 - Present"
+
+    - title: "Machine Learning Intern"
+      company: "Coinfeeds (YC S21)"
+      duration: "Feb 2023 - Apr 2023"
+
+    - title: "Co-Founder & CTO"
+      company: "Today @ Princeton"
+      duration: "Nov 2022 - Present"
 
     - title: "Software Engineering Intern"
       company: "TrueToForm"
